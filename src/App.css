@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+
+.App-header{
+    text-align: center;
+    margin-bottom: 10vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jobApplicationRow{
+    margin-left: 20vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+
+        
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.addButton{
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #0d6efd;
+    bottom: 5vh;
+    right: 5vh;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+dialog{
+    border-radius: 10px;
+    position:absolute;
+    top: 25vh;
 }
-
-.App-link {
-  color: #61dafb;
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 25vh;
+    width: 25vw;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textField{
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+    padding: 5px;
+    width: 20vw;
+}
+.submitButton{
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 15vw;
+    padding: 10px;
+}
+.noApplication{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.statusSelect{
+    border: none;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
 }
