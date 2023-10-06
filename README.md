@@ -10,3 +10,4 @@ I planned on adding a login system and to host the app.
 
 ## Screenshot 
 ![image](https://github.com/EddyBess/JobApplicationTrackingApp/assets/57587025/9ddd328b-2796-446f-a268-d5204e36f8ed)
+
