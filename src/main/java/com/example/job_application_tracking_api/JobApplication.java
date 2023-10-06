@@ -3,8 +3,10 @@ package com.example.job_application_tracking_api;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "applications")
 class JobApplication {
 
     private @Id @GeneratedValue Long id;
